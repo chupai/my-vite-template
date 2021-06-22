@@ -12,12 +12,8 @@ module.exports = {
   rules: {
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies': 'off',
-    'no-param-reassign': [
-      'error',
-      {
-        props: true,
-        ignorePropertyModificationsFor: ['state', 'config'],
-      },
-    ],
+    'global-require': 'off',
+    'no-param-reassign': 'off',
+    'no-underscore-dangle': 'off',
   },
 };

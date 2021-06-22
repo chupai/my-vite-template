@@ -5,11 +5,7 @@ module.exports = {
     'stylelint-config-prettier',
   ],
   rules: {
-    'at-rule-no-unknown': [
-      true,
-      {
-        ignoreAtRules: ['tailwind', 'apply', 'layer', 'variants', 'responsive', 'screen'],
-      },
-    ],
+    'at-rule-no-unknown': null,
+    'function-name-case': null,
   },
 };
