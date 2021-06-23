@@ -6,6 +6,7 @@ export default defineConfig({
     include: ['src/**/*.{vue,html,jsx,tsx}'],
     exclude: ['node_modules', '.git'],
   },
+  darkMode: 'class',
   safelist: '',
   attributify: {
     prefix: 'w:',
